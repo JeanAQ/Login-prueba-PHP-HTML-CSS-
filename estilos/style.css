@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+body{
+    background: url(/160003262_270125647816102_4171159578158287562_n.jpg);
+}
+form{
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgb(15, 151, 94);
+    border-radius: 4px;
+    box-shadow: 0 0 20px rgba(12, 125, 231, 0.2);
+}
+form h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+form input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(224, 147, 147);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+form input[type="submit"]{
+    background: rgb(31, 79, 240);
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+form input[type="submit"]:hover{
+    background: rgb(240, 31, 59);
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+form input[type="submit"]:active{
+    background: rgb(69, 81, 248);
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+form input[type="submit"]:focus{
+    background: rgb(135, 61, 253);
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+form{
+    margin-top: 10%;
+}
+form::placeholder{
+    color: rgb(238, 117, 117);
+}
+form input:focus{
+    outline: none;
+}
+form input:focus::placeholder{
+    color: rgb(113, 120, 124);
+}
+.ok{
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    background: rgb(31, 204, 216);
+}
+.error{
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    color: #fff;
+    background: rgb(240, 31, 59);
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
